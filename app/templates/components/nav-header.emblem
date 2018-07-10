@@ -1,0 +1,10 @@
+= link-to 'index'
+  img src="/images/ic-logo.png"
+span
+  | Suggest Topics
+span
+  | Favorites
+span
+  | Bookmarks
+span
+  | Editor's Picks

@@ -1,0 +1,16 @@
+div.image-background
+  = nav-header
+  div
+    form
+      input type="text" name="search" placeholder="Search.."
+      button
+        | Search
+      button
+        | All
+  div
+    span
+      | Recent Searches
+    each recentSearches as |item|
+      span
+        = link-to 'topic' item.id
+          = item.value

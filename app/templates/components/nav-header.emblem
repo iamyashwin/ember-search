@@ -3,7 +3,7 @@
     div.col-6
       .search-logo
         = link-to 'index'
-          img src="/images/ic-logo.png"
+          img.search-icon
     div.col-1
       .hyper-link
         | Suggest Topics

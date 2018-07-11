@@ -1,10 +1,18 @@
-= link-to 'index'
-  img src="/images/ic-logo.png"
-span
-  | Suggest Topics
-span
-  | Favorites
-span
-  | Bookmarks
-span
-  | Editor's Picks
+.nav-header
+  div.row
+    div.col-6
+      .search-logo
+        = link-to 'index'
+          img src="/images/ic-logo.png"
+    div.col-1
+      .hyper-link
+        | Suggest Topics
+    div.col-1
+      .hyper-link
+        | Favorites
+    div.col-1
+      .hyper-link
+        | Bookmarks
+    div.col-1
+      button.rounded-button
+        | Editor's Picks

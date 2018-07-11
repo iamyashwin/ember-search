@@ -1,15 +1,13 @@
 body, html
   height: 100%
+  font-family: 'Work Sans', sans-serif
+
 .image-background
   background: url('/images/img-bg@2x.png') no-repeat center center fixed
   background-size: cover
   margin: -10px
   height: 100vh
   padding-top: 10px
-
-.topic-view
-  a img
-    background-color: #000
 
 .row::after
   content: ""
@@ -43,3 +41,124 @@ body, html
   width: 91.66%
 .col-12
   width: 100%
+
+.topic-view
+  .hyper-link, .rounded-button
+    color: #000
+  .rounded-button
+    border-color: #000
+  a img
+    background-color: #000
+
+.left-logo
+  display: flex
+  justify-content: center
+  margin-top: 60px
+
+.main-heading
+  font-weight: 600
+  font-size: 40px
+
+.font14px
+  font-size: 14px
+
+.right-column
+  .tag
+    margin: 20px 10px 10px 10px
+    padding: 10px
+    text-align: center
+    border-radius: 30px
+    display: inline-block
+    min-width: 60px
+    font-size: 14px
+    min-width: 70px
+    background-color: rgba(0, 0, 0, 0.04)
+    &:nth-child(1)
+      background-color: #000
+      color: #FFF
+  .para
+    margin: 10px
+    font-family: Georgia
+    opacity: 0.5
+  .map-image
+    margin-left: 20px
+    width: 90%
+  .location-image
+    display: inline
+    position: relative
+    top: -30px
+    left: -50%
+
+.hyper-link, .rounded-button
+  font-size: 14px
+  color: #FFF
+  cursor: pointer
+
+.search-logo
+  margin-left: 17%
+
+.rounded-button
+  border-radius: 30px
+  border: solid 1px #ffffff
+  width: 138px
+  padding: 10px
+  text-align: center
+  background-color: transparent
+  font-family: 'Work Sans', sans-serif
+
+
+.hyper-link
+  margin-top: 10px
+  text-align: left
+
+input, button
+  outline: none
+
+.bottom-page
+  position: relative
+  top: 65%
+  margin-left: 10%
+  form
+    input
+      width: 600px
+      background-color: transparent
+      border-width: 0px 0px 2px 0px
+      padding-bottom: 30px
+      font-size: 30px
+      color: #FFF
+      &::placeholder
+        color: #FFF
+  .recent-searches
+    margin-top: 10px
+    color: #FFF
+    span
+      display: inline-block
+      margin-top: 20px
+      a
+        border-radius: 30px
+        border: solid 1px #ffffff
+        padding: 10px 20px
+        text-align: center
+        margin: 20px
+        color: #FFF
+        text-decoration: none
+        font-size: 12px
+        background-color: rgba(200,180,130, 0.2)
+      &:last-child
+        a
+          background-color: #000
+
+.next-logo
+  width: 91px
+  height: 48px
+  border-radius: 24px
+  background-color: #ffffff
+  position: relative
+  left: -85px
+.filter-logo
+  width: 91px
+  height: 48px
+  border-radius: 24px
+  border: solid 2px #ffffff
+  background-color: transparent
+  margin-left: -55px

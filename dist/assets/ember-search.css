@@ -1,0 +1,182 @@
+body, html {
+  height: 100%;
+  font-family: 'Work Sans', sans-serif; }
+
+.search-icon {
+  content: url("/images/ic-logo.png"); }
+
+.image-background {
+  background: url("/images/img-bg@2x-min.png") no-repeat center center fixed;
+  background-size: cover;
+  margin: -10px;
+  height: 100vh;
+  padding-top: 10px; }
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table; }
+
+[class*="col-"] {
+  float: left;
+  padding: 15px; }
+
+.col-1 {
+  width: 8.33%; }
+
+.col-2 {
+  width: 16.66%; }
+
+.col-3 {
+  width: 25%; }
+
+.col-4 {
+  width: 33.33%; }
+
+.col-5 {
+  width: 41.66%; }
+
+.col-6 {
+  width: 50%; }
+
+.col-7 {
+  width: 58.33%; }
+
+.col-8 {
+  width: 66.66%; }
+
+.col-9 {
+  width: 75%; }
+
+.col-10 {
+  width: 83.33%; }
+
+.col-11 {
+  width: 91.66%; }
+
+.col-12 {
+  width: 100%; }
+
+.topic-view .hyper-link, .topic-view .rounded-button {
+  color: #000; }
+
+.topic-view .rounded-button {
+  border-color: #000; }
+
+.topic-view .search-icon {
+  content: url("/images/ic-logo-2.png"); }
+
+.left-logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px; }
+
+.main-heading {
+  font-weight: 600;
+  font-size: 40px; }
+
+.font14px {
+  font-size: 14px; }
+
+.right-column .tag {
+  margin: 20px 10px 10px 10px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 30px;
+  display: inline-block;
+  min-width: 60px;
+  font-size: 14px;
+  min-width: 70px;
+  background-color: rgba(0, 0, 0, 0.04); }
+  .right-column .tag:nth-child(1) {
+    background-color: #000;
+    color: #FFF; }
+
+.right-column .para {
+  margin: 10px;
+  font-family: Georgia;
+  opacity: 0.5; }
+
+.right-column .map-image {
+  margin-left: 20px;
+  width: 90%; }
+
+.right-column .location-image {
+  display: inline;
+  position: relative;
+  top: -30px;
+  left: -50%; }
+
+.hyper-link, .rounded-button {
+  font-size: 14px;
+  color: #FFF;
+  cursor: pointer; }
+
+.search-logo {
+  margin-left: 17%; }
+
+.rounded-button {
+  border-radius: 30px;
+  border: solid 1px #ffffff;
+  width: 138px;
+  padding: 10px;
+  text-align: center;
+  background-color: transparent;
+  font-family: 'Work Sans', sans-serif; }
+
+.hyper-link {
+  margin-top: 10px;
+  text-align: left; }
+
+input, button {
+  outline: none; }
+
+.bottom-page {
+  position: relative;
+  top: 65%;
+  margin-left: 10%; }
+  .bottom-page form input {
+    width: 600px;
+    background-color: transparent;
+    border-width: 0px 0px 2px 0px;
+    padding-bottom: 30px;
+    font-size: 30px;
+    color: #FFF; }
+    .bottom-page form input::placeholder {
+      color: #FFF; }
+  .bottom-page .recent-searches {
+    margin-top: 10px;
+    color: #FFF; }
+    .bottom-page .recent-searches span {
+      display: inline-block;
+      margin-top: 20px; }
+      .bottom-page .recent-searches span a {
+        border-radius: 30px;
+        border: solid 1px #ffffff;
+        padding: 10px 20px;
+        text-align: center;
+        margin: 20px;
+        color: #FFF;
+        text-decoration: none;
+        font-size: 12px;
+        background-color: rgba(200, 180, 130, 0.2); }
+      .bottom-page .recent-searches span:last-child a {
+        background-color: #000; }
+
+.next-logo {
+  width: 91px;
+  height: 48px;
+  border-radius: 24px;
+  background-color: #ffffff;
+  position: relative;
+  left: -85px; }
+
+.filter-logo {
+  width: 91px;
+  height: 48px;
+  border-radius: 24px;
+  border: solid 2px #ffffff;
+  background-color: transparent;
+  margin-left: -55px; }
+
+/*# sourceMappingURL=ember-search.css.map */
